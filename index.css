@@ -1,0 +1,82 @@
+body, html, table, div {
+  margin:0; padding:0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#page {
+  text-align: left;
+  width: 800px;
+  margin: auto;
+}
+
+#header {
+  margin-top:20px;
+  overflow:auto;
+  padding:8px;
+  background-color: white;
+  border: 1px solid #EEE;
+  border-bottom:1px solid #AAA !important;
+}
+
+body {
+  text-align:center;
+  background-color:#F5F5F5;
+}
+
+#logo {
+  vertical-align:middle;
+  height:42px;
+  width:15px;
+  margin-right:10px;
+}
+
+#logocell {
+  padding:0 !important;
+}
+
+#menubar {
+  height: 44px;
+  font-family: "Courier New";
+  font-size:16px;
+  margin:auto;
+}
+
+#menubar td {
+  padding: 0 30px 0 0;
+}
+
+#menubar a {
+  text-decoration:none;
+  color:#666;
+  height:20px;
+  position:relative;
+}
+
+#menubar a:hover {
+  color:black;
+}
+
+#page {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#content {
+  font-family: "Segoe UI";
+  padding:10px 10px 30px 10px;
+  border-bottom:1px solid #AAA;
+}
+
+#content h1 {
+  font-family:"Courier New";
+  margin:30px 0 30px 0; padding:0;
+  text-align:center;
+}
+
+#content p {
+  text-indent:30px;
+}
