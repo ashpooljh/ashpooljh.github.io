@@ -83,3 +83,12 @@ body {
   text-indent:30px;
   margin:5px 0 5px 0;
 }
+
+#content a, a:visited {
+  color:navy;
+  text-decoration:none;
+}
+
+#content a:hover {
+  text-decoration:underline;
+}
