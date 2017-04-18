@@ -18,7 +18,7 @@ table {
   overflow:auto;
   padding:8px;
   background-color: white;
-  border: 1px solid #EEE;
+  border: 1px solid #F0F0F0;
   border-bottom:1px solid #AAA !important;
 }
 
@@ -40,8 +40,8 @@ body {
 
 #menubar {
   height: 44px;
-  font-family: "Courier New";
-  font-size:16px;
+  font-family: 'Courier New', 'Courier', 'Anonymous Pro', monospace;
+  font-size:17px;
   margin:auto;
 }
 
@@ -66,17 +66,19 @@ body {
 }
 
 #content {
-  font-family: "Segoe UI";
-  padding:10px 10px 30px 10px;
+  font-family: 'Open Sans', sans-serif;
+  padding:40px 10px 40px 10px;
   border-bottom:1px solid #AAA;
 }
 
 #content h1 {
-  font-family:"Courier New";
-  margin:30px 0 30px 0; padding:0;
+  font-family: 'Open Sans', sans-serif;
+  margin:0px 0 30px 0; padding:0;
   text-align:center;
+  font-weight:bold;
 }
 
 #content p {
   text-indent:30px;
+  margin:5px 0 5px 0;
 }
