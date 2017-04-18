@@ -92,3 +92,9 @@ body {
 #content a:hover {
   text-decoration:underline;
 }
+
+.comment {
+  font-style:italic;
+  color:#777;
+  font-size:small;
+}
