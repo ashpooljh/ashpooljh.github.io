@@ -32,6 +32,7 @@ body {
   height:42px;
   width:15px;
   margin-right:10px;
+  border:none !important;
 }
 
 #logocell {
