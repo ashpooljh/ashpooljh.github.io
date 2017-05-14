@@ -5,6 +5,10 @@ function parseMusic (inp)
   iceStats = inp.icestats? inp.icestats : null;
 }
 
+function cap1st(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 function getIceInfo (stream_name)
 {
   if (!iceStats || !iceStats.source) return null;
@@ -41,6 +45,6 @@ function getIceInfoHtml (stream)
   if (!info)
     return '<span class="warning">Stream seems down.</span>';
   else
-    return info.artist + " &mdash; " + info.title + "<br>"
+    return cap1st(info.artist) + " &mdash; " + info.title + "<br>"
       + "Listeners: " + info.listeners;
 }
