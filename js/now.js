@@ -6,6 +6,6 @@ function pad(num) {
 function now()
 {
   date = new Date();
-  return date.getDate() + "." + pad(date.getMonth()) + "." + date.getFullYear() +
+  return pad(date.getDate()) + "." + pad(date.getMonth()) + "." + date.getFullYear() +
   " " + pad(date.getHours()) + ":" + pad(date.getMinutes()) + "." + pad(date.getSeconds());
 }
