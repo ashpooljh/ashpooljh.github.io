@@ -43,7 +43,7 @@ function getIceInfoHtml (stream)
 {
   info = getIceInfo (stream);
   if (!info)
-    return '<span class="warning">Stream seems down.</span>';
+    return '<span class="warning">Stream seems down.</span><br><br>';
   else
     return cap1st(info.artist) + " &mdash; " + info.title + "<br>"
       + "Listeners: " + info.listeners;
