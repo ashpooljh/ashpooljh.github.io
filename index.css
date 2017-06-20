@@ -104,5 +104,5 @@ body {
 }
 
 .wsp-norm {
-  word-spacing:normal;
+  word-spacing:normal !important;
 }
