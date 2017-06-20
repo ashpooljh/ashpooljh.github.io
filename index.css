@@ -98,3 +98,11 @@ body {
   color:#777;
   font-size:small;
 }
+
+.disabled {
+  color:#777 !important;
+}
+
+.wsp-norm {
+  word-spacing:normal;
+}
