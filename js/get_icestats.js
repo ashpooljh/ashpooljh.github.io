@@ -45,5 +45,5 @@ function getIceInfoHtml (stream)
   if (!info)
     return '<span class="warning">Stream seems down.</span><br><br>';
   else
-    return cap1st(info.artist) + " &mdash; " + info.title + " <span class=\"listeners_caption\" title=\"People currently listening\">[&#9654;: " + info.listeners + "]</span>";
+    return cap1st(info.artist) + " &mdash; " + info.title + " <span class=\"listeners_caption\" title=\"People currently listening\">(&#9654;) " + info.listeners + "</span>";
 }
